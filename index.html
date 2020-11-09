@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <title>Resume</title>
+</head>
+
+<body>
+<main>
+    <div id="application-root"></div>
+    
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js">
+    </script>
+    
+    <script src="https://unpkg.com/react@16/umd/react.development.js">
+    </script>
+    
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+    </script>
+
+    <script type="text/babel">
+        function App() {
+            return (
+
+            <div>
+
+                <h1>Sally Student</h1>
+
+                <section id="introduction">
+                    <img src="https://i.imgur.com/9RLKSoL.jpg" alt="picture of Sally Student" width="300"/>
+                    <p>Hi I'm Sally I'm 25 and below this line you'll find more information about me.</p>
+                </section>
+              
+                        
+                <section id="Education">
+                    <p>I have studied at:</p>
+                        <ul>
+                            <li>IES BEZMILIANA</li>
+                            <li>Minnesota University</li>
+                        </ul>
+                </section>
+
+                <section id="works">
+                    <p>I have worked at:</p>
+                        <div>
+                            <ul>
+                                <li>Github as Engineer during 2018 and there I have to
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </li>
+                                <li>Jetbrains as Project manager during 2019 and I'm still working there. My work consist in
+                                    A assumenda autem dolorem doloremque
+                                </li>
+                                </ul>
+                        </div>
+                </section>
+
+                <section id="Contact-section">
+                    <p>My contact information: </p>
+                        <address>
+                            <p>My name is Sally</p>
+                            <p>My email is: <a href="mailto://sally@IntenetExplorer.old">sally@IntenetExplorer.old</a></p>
+                            <p>My phone number is: <a href="tel:+34100572415">+34 100 57 24 15</a></p>
+                        </address>
+                </section>
+            </div>
+            );
+        }
+
+        ReactDOM.render(
+            <App>
+            </App>,
+            document.querySelector('#application-root')
+        );
+
+    </script>
+</main>
+</body>
+
+</html>
