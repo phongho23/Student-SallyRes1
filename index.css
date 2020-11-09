@@ -1,0 +1,36 @@
+* {
+    padding: 5px;
+    background-color: #e2c287;
+    color: black;
+  }
+
+div {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+}
+
+address {
+    font-size: 18px;
+  }
+  
+p {
+    font-size: 18px;
+  }
+  
+ul {
+    font-size: 18px;
+    list-style: none;
+  }
+
+  
+a:link {
+    color: rgb(153, 0, 255);
+  }
+  
+a:hover {
+    font-size: larger;
+  }
